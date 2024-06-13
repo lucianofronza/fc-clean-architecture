@@ -3,9 +3,7 @@
 Este é um projeto de exemplo que utiliza a arquitetura limpa (Clean Architecture) para a construção de uma aplicação Node.js.
 
 ## Dependências
-
 A aplicação depende das seguintes bibliotecas:
-
 - `@types/express`: ^4.17.13
 - `@types/uuid`: ^8.3.4
 - `dotenv`: ^16.0.0
@@ -20,9 +18,7 @@ A aplicação depende das seguintes bibliotecas:
 - `yup`: ^0.32.11
 
 ## Dependências de Desenvolvimento
-
 As seguintes bibliotecas são necessárias para o desenvolvimento e teste da aplicação:
-
 - `@swc/cli`: ^0.1.55
 - `@swc/core`: ^1.2.148
 - `@swc/jest`: ^0.2.20
@@ -32,16 +28,12 @@ As seguintes bibliotecas são necessárias para o desenvolvimento e teste da apl
 - `jest`: ^27.5.1
 
 ## Como executar
-
 Para executar a aplicação, siga os seguintes passos:
-
 1. Instale as dependências com `npm install`.
 2. Inicie a aplicação com `npm start`.
 
 ## Como testar
-
 Para testar a aplicação, execute `npm test`.
 
 ## Licença
-
 Este projeto está licenciado sob a licença MIT.
