@@ -54,8 +54,6 @@ describe("Test integration find product use case", () => {
             id: "123",
         };
 
-        expect(() => {
-            return usecase.execute(input);
-        }).rejects.toThrow("Product not found");
+        await expect(usecase.execute(input)).rejects.toThrow("Product not found");
     });
 });
